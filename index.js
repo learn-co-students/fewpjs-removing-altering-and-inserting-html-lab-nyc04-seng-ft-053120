@@ -1,7 +1,6 @@
 // Write your code here!
-var removeMain = document.getElementById('main');
-removeMain.remove();
+let findMain = document.querySelector("#main").remove()
 
-let newHeader = document.createElement('h1');  
-newHeader.id = 'victory';
-newHeader.innerHTML = 'is the champion!';
+let newHeader = document.createElement('h1')
+newHeader.id = "victory"
+newHeader.innerHTML = "YOUR-NAME is the champion"
